@@ -1,0 +1,15 @@
+HTTrack3.49-2 launched on Sat, 17 Jun 2023 19:57:53 at https://boredmiladymaker.net/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/*
+(webhttrack -q -%i -w https://boredmiladymaker.net/ -O "/Users/oneilbenjamin/websites/milc" -n -%P -N100 -s2 -p7 -D -a -K0 -c4 -%k -A25000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+19:58:16	Error: 	"Not Found" (404) at link https://fonts.googleapis.com/ (from https://boredmiladymaker.net/)
+19:58:17	Error: 	"Not Found" (404) at link https://fonts.gstatic.com/ (from https://boredmiladymaker.net/)
+19:58:18	Error: 	"Not Found" (404) at link https://boredmiladymaker.net/favicon.ico (from https://boredmiladymaker.net/)
+19:58:19	Error: 	"Not Found" (404) at link https://boredmiladymaker.net/icons/apple-touch-icon.png (from https://boredmiladymaker.net/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 27 seconds : 25 links scanned, 29 files written (11750493 bytes overall) [2777168 bytes received at 102858 bytes/sec], 4721006 bytes transferred using HTTP compression in 17 files, ratio 31%, 2.3 requests per connection
+(4 errors, 0 warnings, 0 messages)
